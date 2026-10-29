@@ -347,7 +347,7 @@ INSERT INTO public.products (
   sizes, colors, is_featured, is_active
 ) VALUES
 (
-  'p1000000-0000-0000-0000-000000000001',
+  '91000000-0000-0000-0000-000000000001',
   'Automatic Top-Load Washing Machine Cover (Waterproof Quilted)',
   'automatic-top-load-washing-machine-cover',
   'c1111111-1111-1111-1111-111111111111',
@@ -366,7 +366,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000002',
+  '91000000-0000-0000-0000-000000000002',
   'Front-Load Washing Machine Heavy-Duty Zipper Cover',
   'front-load-washing-machine-heavy-duty-cover',
   'c1111111-1111-1111-1111-111111111111',
@@ -385,7 +385,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000003',
+  '91000000-0000-0000-0000-000000000003',
   'Double Door Refrigerator Cover with 6 Utility Pockets',
   'double-door-refrigerator-cover-utility-pockets',
   'c2222222-2222-2222-2222-222222222222',
@@ -404,7 +404,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000004',
+  '91000000-0000-0000-0000-000000000004',
   'Full Refrigerator Protective Dust & Scratch Body Cover',
   'full-refrigerator-protective-body-cover',
   'c2222222-2222-2222-2222-222222222222',
@@ -423,7 +423,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000005',
+  '91000000-0000-0000-0000-000000000005',
   'All-Weather Split AC Outdoor + Indoor 2-in-1 Cover Set',
   'all-weather-split-ac-cover-set',
   'c3333333-3333-3333-3333-333333333333',
@@ -442,7 +442,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000006',
+  '91000000-0000-0000-0000-000000000006',
   'Microwave Oven Heat-Resistant Cover with Storage Pouch',
   'microwave-oven-heat-resistant-cover',
   'c4444444-4444-4444-4444-444444444444',
@@ -461,7 +461,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000007',
+  '91000000-0000-0000-0000-000000000007',
   'Electric Baking Oven Dust & Oil Proof Fitted Shield',
   'electric-baking-oven-dust-oil-shield',
   'c4444444-4444-4444-4444-444444444444',
@@ -480,7 +480,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000008',
+  '91000000-0000-0000-0000-000000000008',
   'LED TV Screen & Frame Velvet Protective Dust Cover',
   'led-tv-screen-velvet-dust-cover',
   'c5555555-5555-5555-5555-555555555555',
@@ -499,7 +499,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000009',
+  '91000000-0000-0000-0000-000000000009',
   'Anti-Vibration Silent Rubber Pads for Washing Machines (4 Pcs)',
   'anti-vibration-silent-rubber-pads-washing-machine',
   'c6666666-6666-6666-6666-666666666666',
@@ -518,7 +518,7 @@ INSERT INTO public.products (
   TRUE
 ),
 (
-  'p1000000-0000-0000-0000-000000000010',
+  '91000000-0000-0000-0000-000000000010',
   'Ultimate Appliance Care & Stainless Steel Microfiber Kit',
   'appliance-care-stainless-steel-microfiber-kit',
   'c6666666-6666-6666-6666-666666666666',
@@ -544,16 +544,16 @@ ON CONFLICT (sku) DO UPDATE SET
 -- Seed Images for products
 INSERT INTO public.product_images (product_id, image_url, alt_text, display_order, is_primary)
 VALUES
-  ('p1000000-0000-0000-0000-000000000001', 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80', 'Automatic Top Load Washing Machine Cover', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000002', 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=800&q=80', 'Front Load Washing Machine Zipper Cover', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000003', 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80', 'Double Door Refrigerator Cover with Pockets', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000004', 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=800&q=80', 'Full Refrigerator Protective Dust Cover', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000005', 'https://images.unsplash.com/photo-1614633837775-81232ceb4d52?auto=format&fit=crop&w=800&q=80', 'All Weather Split AC Cover Set', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000006', 'https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80', 'Microwave Oven Heat Resistant Dust Cover', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000007', 'https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=800&q=80', 'Electric Baking Oven Dust & Oil Proof Fitted Shield', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000008', 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80', 'LED TV Screen Velvet Dust Cover', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000009', 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80', 'Anti Vibration Rubber Pads for Washing Machines', 1, TRUE),
-  ('p1000000-0000-0000-0000-000000000010', 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80', 'Appliance Care & Stainless Steel Microfiber Kit', 1, TRUE)
+  ('91000000-0000-0000-0000-000000000001', 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80', 'Automatic Top Load Washing Machine Cover', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000002', 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=800&q=80', 'Front Load Washing Machine Zipper Cover', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000003', 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80', 'Double Door Refrigerator Cover with Pockets', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000004', 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=800&q=80', 'Full Refrigerator Protective Dust Cover', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000005', 'https://images.unsplash.com/photo-1614633837775-81232ceb4d52?auto=format&fit=crop&w=800&q=80', 'All Weather Split AC Cover Set', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000006', 'https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80', 'Microwave Oven Heat Resistant Dust Cover', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000007', 'https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=800&q=80', 'Electric Baking Oven Dust & Oil Proof Fitted Shield', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000008', 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80', 'LED TV Screen Velvet Dust Cover', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000009', 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80', 'Anti Vibration Rubber Pads for Washing Machines', 1, TRUE),
+  ('91000000-0000-0000-0000-000000000010', 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80', 'Appliance Care & Stainless Steel Microfiber Kit', 1, TRUE)
 ON CONFLICT DO NOTHING;
 
 -- ------------------------------------------------------------------------------
