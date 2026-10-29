@@ -1,0 +1,6 @@
+{
+  "name": "Home Appliance Covers",
+  "description": "Production-ready e-commerce catalog for protective appliance covers and care products with WhatsApp & COD checkout, Supabase backend, and secure admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
